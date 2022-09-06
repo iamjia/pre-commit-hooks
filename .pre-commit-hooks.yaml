@@ -4,6 +4,7 @@
     entry: check_commit
     language: script
     types: [shell]
+    stages: [prepare-commit-msg, commit-msg]
 -   id: check-added-large-files
     name: check for added large files
     description: prevents giant files from being committed.
