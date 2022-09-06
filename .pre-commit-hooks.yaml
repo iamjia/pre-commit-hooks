@@ -1,3 +1,9 @@
+-   id: check-commit
+    name: check-commit
+    description: check-commit
+    entry: check_commit.sh
+    language: script
+    types: [shell]
 -   id: check-added-large-files
     name: check for added large files
     description: prevents giant files from being committed.
