@@ -1,7 +1,7 @@
 -   id: check-commit
     name: check-commit
     description: check-commit
-    entry: check_commit.sh
+    entry: check_commit
     language: script
     types: [shell]
 -   id: check-added-large-files
